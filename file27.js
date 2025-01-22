@@ -18,6 +18,6 @@ let fruits = ["apple","mango","grapes"];
 
 
 // shift
-fruits.shift();
-console.log(fruits);
-console.log("removed fruit is",removedFruit);
+// fruits.shift();
+// console.log(fruits);
+// console.log("removed fruit is",removedFruit);
