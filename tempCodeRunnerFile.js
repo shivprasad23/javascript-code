@@ -1,10 +1,11 @@
-let num1 = 6;
-// let num2 = num1;
-// console.log("value is num1 is",num1);
-// console.log("value is num2 is",num2);
-// num1++;
-// console.log("after incrementing num1");
-// console.log("");
-// console.log("value is num1 is",num1);
-// console.log("value is num2 is",num2);
 
+const sumThreeNumbers = (number1, number2, number3) => {
+    return number1 + number2 + number3;
+}
+
+const ans = sumThreeNumbers(2,3,4);
+console.log(ans);
+
+// const isEven = function(number){
+//     return number % 2 === 0;
+// }
