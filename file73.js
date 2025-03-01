@@ -1,14 +1,17 @@
-
+function about(hobby, favMusician){
+    console.log(this.firstName, this.age, hobby, favMusician);
+}
 const user1 = {
     firstName : "harshit",
-    age: 8,
-    about: function(){
-        console.log(this.firstName, this.age);
-    }   
+    age: 8,   
+}
+const user2 = {
+    firstName : "mohit",
+    age: 9,
+    
 }
 
-// don't do this mistake 
-
-// user1.about();
-const myFunc = user1.about.bind(user1);
-myFunc();
+// apply
+// about.apply(user1, ["guitar", "bach"]);
+// const func = about.bind(user2, "guitar", "bach");
+// func();
